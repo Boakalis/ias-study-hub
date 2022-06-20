@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+button:focus,
+input:focus{
+  outline: none;
+  box-shadow: none;
+}
+a,
+a:hover{
+  text-decoration: none;
+}
+
+.bg-orange-custom{
+    background: #ff7605;
+}
+
+.bg-green-custom{
+    background: hsl(147, 97%, 49%);
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*------------------  */
+.otp-countdown{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 8px 30px;
+  background-color: #333;
+  border-radius: 50px;
+  color: #fff;
+
+}
+
+.title {
+    width: 100%;
+  }
+  .link {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+  .shimmer {
+    padding: 5px;
+    width: 95%;
+    height: 120px;
+    margin: 10px auto;
+    background: #ffffff;
+  }
+  .shimmer .image-card {
+    height: 90px;
+    width: 90px;
+    float: right;
+    border-radius: 8px;
+  }
+  .stroke {
+    height: 15px;
+    background: #777;
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    width: 0px;
+    animation: fullView 0.5s forwards linear;
+  }
+
+  @keyframes fullView {
+    100% {
+      width: 100%;
+    }
+  }
+  .animate {
+    animation: shimmer 3s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(to right, #e6e6e6 5%, #cccccc 25%, #e6e6e6 35%);
+    background-size: 1000px 100%;
+  }
+  @keyframes shimmer {
+    from {
+      background-position: -1000px 0;
+    }
+    to {
+      background-position: 1000px 0;
+    }
+  }
+
+
+/* Login Model */
+
+
+/* * * * * General CSS * * * * */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.wrapper-login {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-login {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0 0 5px #999999;
+}
+
+.credit {
+  position: relative;
+  margin: 25px auto 0 auto;
+  width: 100%;
+  text-align: center;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.credit a {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.col-left-login,
+.col-right-login {
+  padding: 30px;
+  display: flex;
+}
+
+.col-left-login {
+  width: 77%;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 0);
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  background-color: #2aa87e;
+border-color: #2aa87e;
+background-image: linear-gradient( 180deg ,#50b167,#1a806c);
+}
+
+.col-right-login {
+  padding: 60px 30px;
+  width: 50%;
+  margin-left: -10%;
+}
+
+@media(max-width: 575.98px) {
+  .container-login {
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .col-left-login,
+  .col-right-login {
+    width: 100%;
+    margin: 0;
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
+  .col-right-login {
+    padding: 30px;
+  }
+}
+
+.login-text {
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+}
+
+.login-text h2 {
+  margin: 0 0 15px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.login-text p {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.login-text .btn-login {
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid #ffffff;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  transition: .3s;
+  -webkit-transition: .3s;
+}
+
+.login-text .btn-login:hover {
+  color: #44c7f5;
+  box-shadow: inset 150px 0 0 0 #ffffff;
+}
+
+.login-form {
+  position: relative;
+  width: 100%;
+}
+
+.login-form h2 {
+  margin: 0 0 15px 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.login-form p {
+  margin: 0 0 10px 0;
+  text-align: left;
+  color: #666666;
+  font-size: 15px;
+}
+
+.login-form p:last-child {
+  margin: 0;
+  padding-top: 3px;
+}
+
+.login-form p a {
+  color: #44c7f5;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login-form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 2px;
+  letter-spacing: .5px;
+}
+
+.login-form p:last-child label {
+  width: 60%;
+  float: left;
+}
+
+.login-form label span {
+  color: #ff574e;
+  padding-left: 2px;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+}
+
+.login-form input:focus {
+  border-color: #ff574e;
+}
+
+.login-form button,
+.login-form input[type=submit] {
+  display: inline-block;
+  width: 100%;
+  margin-top: 5px;
+  color: #44c7f5;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #44c7f5;
+  border-radius: 30px;
+  box-shadow: inset 0 0 0 0 #44c7f5;
+  transition: .3s;
+  -webkit-transition: .3s;
+}
+
+.login-form button:hover,
+.login-form input[type=submit]:hover {
+  color: #ffffff;
+  box-shadow: inset 250px 0 0 0 #44c7f5;
+}
+
+.custom-hide
+{
+    display:none;
+}
+
+/* Cookie Consent Screen */
+.cookie-message {
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    border-radius: 10px;
+    padding: 15px 0;
+    background: #f7f8fb;
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: 0 0 16px 2px rgba(0,0,0,.05), 0 10px 10px 2px rgba(0,0,0,.05);
+    font-size: 12px;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    z-index: 100;
+    bottom: 10%;
+    right: 2%;
+    margin: auto;
+    max-width: 540px;
+    display: -ms-flexbox;
+    display: flex;
+}
+.cookie-message img {
+    height: 50px;
+    width: 50px;
+    margin: 0 15px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+.cookie-message span {
+    display: inline-block;
+    line-height: 1.5;
+    padding-right: 16px;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.cookie-message a.close {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    border: none;
+    font-size: 24px;
+    padding: 0 20px 0 16px;
+    position: relative;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: #919191;
+    transition: color 0.2s;
+}
+.cookie-message a.close:hover { color: #795548; }
+.cookie-message a {
+    display: inline-block;
+    color: red;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}

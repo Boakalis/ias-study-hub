@@ -1,0 +1,1 @@
+<?php /**PATH /home/614552.cloudwaysapps.com/seeurhhvyv/public_html/resources/views/errors/419.blade.php ENDPATH**/ ?>

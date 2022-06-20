@@ -1,0 +1,45 @@
+
+
+.loader{
+    display: none;
+    position: fixed;
+    height: 100%;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    background: rgba(0,0,0,0.75) url(images/loading2.gif) no-repeat center center;
+    width: 100%;
+    z-index: 10000;
+}
+
+.loader-image{
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+:required:focus {
+    border: 1px solid red;
+    outline: none;
+  }
+
+.border-correct{
+
+    border: 2px solid green;
+    border-style : groove;
+
+}
+
+
+.border-incorrect{
+    border: 2px solid red;
+    border-style : groove;
+}
+
+
+
+
+
+
+

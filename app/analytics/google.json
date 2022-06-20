@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ias-study-hub-323515",
+  "private_key_id": "5d4ab16b162bb58c251dc82f5f20bc47f2c40d85",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvU/SIK1Qo1CdL\nXhM5r8/n+oTCd8itrmJsrBlzq2Nm2r1vhlYg+R7mCuRiG29QIdHar5FL3trkshqP\nMgi/q8GMHIXfhUnPmF4RrEJzqsOWXKvdtjFxYdrIcFi92st7NKsOa2Gfr5cehlMZ\n5kWlw4U03Ji9R4oaeZN/isRlFtgrcHZnrQ9+b/qbmwumFVywF56b15RBna1TYx8Y\nz70jNxGf1ldZ3gAV412pLobWV6v+0t4cIozuR/tfBoUFRGrc0At5oY7YmaHEhOmz\nCwdrJpAWq7ll7Uz3gc0QXd1ukl/nyq0EyOxrtwb2E6dYIVQsG4p+gYVQ3GzLOMK6\nbJAO3zgjAgMBAAECggEAOJxqI6Gh7gD6oxpAKOs8vVGllkkpEfNxslcrbK7VTLuq\nWR1OKB1oPa0cqxTir0QMR4lS5+WQVjGv47arHoBt4TjAfTjDaXVwQlKVrlVgC+fm\nUpNmiY6oHvovnTXNZ/3Mkb5YakA/EksbAAzbRjfIhhYId21nCT9iQddjrKRgrj17\noz8P7wVpGe1JZYzPtgnV/xQcwcMKjLfdGlqmm0jRnFxOTbQRaLcJtPbVEi5TCpxa\njBdSBhM2Gq7E5txvIWm2yf3O4rUAfNccsx/acIcO+bnsllb6LlykgBwlfeunrouI\nqckjaWymj1EvgKUZF7PxoZ5LpQ+Fw5MWeeTyd5p06QKBgQDmTp9Pa5NE3l6NHsRQ\njBSeCZpoJP8+F1Qnw/lG+uQ1dY+gcc0LwoRXEG82BCYKXu/V0LzOpd1bjCdNlaTq\nRD2OB9XtrV/TczK8kOyASU3y4Kgkath6C+I6kpFpnt4kKL8RIs83ZWUedDp8N/IE\n3kOGuOSKcvxphg7UhZAnAgxSrwKBgQDC4yyPnwvjuw3UU9/h0xuMUCjsNo8RDoSC\ng1tCPzgyqWZwVAiwts8hW1hHaKw3BSoLTS1qNgNU7Y+hcNdCx0iO8P7s6A+Cihaf\n8BalOgw0b2glhW+r6clfHYd52Oib+BuTTTMxcWiE4gEOjY2XLdhJ9944RTxq1m9i\nB8SDUdeezQKBgGVqO7biXSBXd3VXFgWOGcoZ2nd/yzHRXgqAvrVl57YuxYdWdX93\nMYWRRBeaLhIlCiGyYGHzIg2dIvWELvHGCQERLEAUN31KXg4xFyPKo9uO2BvpPNhJ\ngV5fik7jWVi85J4sIOl46dVGQzbN//Hq2ftqUaExzzq8gK1O/1JeEYUbAoGBAMB1\n+t7G8cXvR2QFhNaOVelGjHNiGf19Oc1uDaSprEUT2A9cXcyubHWDsPWsYE5hsjjA\n+fWm67lmde638k2HYpePViH9trtyxY8jWinH3p+12cMcOMEsuupMziq91FGbPxhE\nKCdO2SpJy0Nk9Yx0AOJjf7hQX68en5bPFvmczHSNAoGAHa/eer0usE+xqOpzq/3l\noXBobvpZsgsdEGr93o5ULKUJZbaLva0lmC6NLiI5KCTqOWjxAWCRCjdIO8hh2tQC\na9zoxuiFJecS/oX/vT9dWfejhJp8F+0xPIurT36o99Rgd1gONa9ARJUHuqsehjYe\nseNlAFRECjZPkPH4e2DoI5I=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ias-study-hub@ias-study-hub-323515.iam.gserviceaccount.com",
+  "client_id": "114859267980224772560",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ias-study-hub%40ias-study-hub-323515.iam.gserviceaccount.com"
+}
