@@ -272,7 +272,7 @@
     </div>
 </div> --}}
 
-{{-- <div class="content-section py-3 bg-default mt-1">
+<div class="content-section py-3 bg-default mt-1">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
@@ -303,7 +303,7 @@
         </div>
         <!-- .row -->
     </div>
-</div> --}}
+</div>
 
 <div class="content-section mt-5 py-5 bg-default mb-5">
     <div class="container">
