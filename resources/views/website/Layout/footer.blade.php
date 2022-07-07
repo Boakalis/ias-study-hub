@@ -18,7 +18,7 @@
 
 <!-- Mobile Bottom Menu -->
 <div class="footer-navigation d-block d-md-none w-100">
-    
+
     <div class="footer-navigation__container ng-scope" ng-if="!tbHeader.stuObj.isLoggedIn">
         <a href="{{ url('/') }}" target="_self" class="footer-navigation__item">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" class="svg-f-green" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@
                     </svg>
             Home
         </a>
-        <a href="{{ route('test-series') }}" target="_self" class="footer-navigation__item">
+        {{-- <a href="{{ route('test-series') }}" target="_self" class="footer-navigation__item">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" class="svg-f-green" viewBox="0 0 24 26">
                 <g>
                     <path
@@ -64,7 +64,7 @@
                 </g>
             </svg>
             PY Question
-        </a>
+        </a> --}}
         <a href="{{route('getQuestionBankPages')}}" target="_self" class="footer-navigation__item">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" class="svg-f-green" viewBox="0 0 24 26">
                 <g>
@@ -80,7 +80,7 @@
             </svg>
             Question Bank
         </a>
-        
-    </div>   
+
+    </div>
 </div>
 <!-- Mobile Bottom Menu -->
