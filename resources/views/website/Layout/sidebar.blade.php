@@ -25,12 +25,12 @@
                         </a>
                     </li><!-- .nk-menu-item -->
                     @endauth
-                    <li class="nk-menu-item">
+                    {{-- <li class="nk-menu-item">
                         <a href="{{route('test-series')}}" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
                             <span class="nk-menu-text text-uppercase">IAS Test Series</span>
                         </a>
-                    </li><!-- .nk-menu-item -->
+                    </li><!-- .nk-menu-item --> --}}
 
                      <li class="nk-menu-item has-sub">
                         <a href="#" class="nk-menu-link nk-menu-toggle">
@@ -46,7 +46,7 @@
                                 @endforeach
                                 @endif
                         </ul><!-- .nk-menu-sub -->
-                    </li><!-- .nk-menu-item --> 
+                    </li><!-- .nk-menu-item -->
 
                     {{-- <li class="nk-menu-item">
                         <a href="{{route('getQuestionBankPages')}}" class="nk-menu-link">
@@ -56,12 +56,12 @@
                     </li><!-- .nk-menu-item --> --}}
 
 
-                    <li class="nk-menu-item">
+                    {{-- <li class="nk-menu-item">
                         <a href="{{route('previousYearIndex')}}" class="nk-menu-link">
                             <span class="nk-menu-icon"><em class="icon ni ni-file-docs"></em></span>
                             <span class="nk-menu-text text-uppercase">Previous Year Questions</span>
                         </a>
-                    </li><!-- .nk-menu-item -->
+                    </li><!-- .nk-menu-item --> --}}
 
                     {{--<li class="nk-menu-item">
                         <a href="{{route('dailyQuizIndex')}}" class="nk-menu-link">
@@ -106,7 +106,7 @@
                         <ul class="nk-menu-sub">
                                 <li class="nk-menu-item">
                                     <a href="{{route('mytest')}}" class="nk-menu-link text-white"><span class="nk-menu-text">IAS Test Series</span></a>
-                                     <a href="{{route('qbreport')}}" class="nk-menu-link text-white"><span class="nk-menu-text">Question Banks</span></a> 
+                                     <a href="{{route('qbreport')}}" class="nk-menu-link text-white"><span class="nk-menu-text">Question Banks</span></a>
                                     <a href="{{route('pyqreport')}}" class="nk-menu-link text-white"><span class="nk-menu-text">Previous Year Questions</span></a>
 
                                 </li>

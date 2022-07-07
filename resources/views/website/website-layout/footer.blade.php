@@ -63,15 +63,15 @@
                             <div class="footer-widgets footer-widgets--1 mb-10 mb-md-0">
                                 <h4 class="footer-widgets__title font-weight-bold text-white font-24">Quick Links</h4>
                                 <ul class="footer-widgets__list">
-                                    <li>
+                                    {{-- <li>
                                         <a href="{{ route('test-series') }}">IAS Test Series</a>
                                     </li>
                                     <li>
                                         <a href="{{ route('previousYearIndex') }}">Previous Year Questions</a>
-                                    </li>
+                                    </li> --}}
                                      <li>
                                         <a href="{{ route('getQuestionBankPages') }}">Questions Bank</a>
-                                    </li> 
+                                    </li>
                                     {{--<li>
                                         <a href="{{ route('dailyQuizIndex') }}">Daily Quiz</a>
                                     </li>--}}
@@ -96,17 +96,17 @@
                                 <ul class="footer-widgets__list footer-widgets--address">
                                     <li>
                                         <i class="fa fa-map-marker-alt text-white"></i>
-                                        <span>{!! $setting->address !!}</span>
+                                        <span>{!! @$setting->address !!}</span>
                                     </li>
                                     <li>
                                         <i class="fa fa-phone-alt text-white"></i>
                                         <div class="list-content">
-                                            <a href="tel:{{ $setting->phone_no }}">{{ $setting->phone_no }}</a>
+                                            <a href="tel:{{ @$setting->phone_no }}">{{ @$setting->phone_no }}</a>
                                         </div>
                                     </li>
                                     <li>
                                         <i class="fa fa-envelope text-white"></i>
-                                        <a class="heading-default-color gr-text-hover-underline text-break" href="mailto:{{ $setting->email }}">{{ $setting->email }}</a>
+                                        <a class="heading-default-color gr-text-hover-underline text-break" href="mailto:{{ @$setting->email }}">{{ @$setting->email }}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -118,9 +118,9 @@
         <div class="footer-copyright footer-copyright--l1 py-3 mt-2">
             <div class="row text-center align-items-center text-white">
                 <div class="col-xs-12 text-sm-start">
-                    <p class="text-white">&copy; {{ date('Y') }} {{ Str::ucfirst($setting->title) }}. All Rights Reserved</p>
+                    <p class="text-white">&copy; {{ date('Y') }} {{ Str::ucfirst(@$setting->title) }}. All Rights Reserved</p>
                 </div>
-                
+
             </div>
         </div>
     </div>

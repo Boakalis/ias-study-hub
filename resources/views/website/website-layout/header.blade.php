@@ -30,12 +30,12 @@
                         <li class="nav-item nav-item-has-children">
                             <a href="{{ url('/') }}" class="nav-link-item drop-trigger">Home </a>
                         </li>
-                        <li class="nav-item nav-item-has-children">
+                        {{-- <li class="nav-item nav-item-has-children">
                             <a href="{{ route('test-series') }}" class="nav-link-item drop-trigger">IAS Test Series </a>
                         </li>
                         <li class="nav-item nav-item-has-children">
                             <a href="{{ route('previousYearIndex') }}" class="nav-link-item drop-trigger">Previous Year Management</a>
-                        </li>
+                        </li> --}}
                          <li class="nav-item nav-item-has-children">
                             <a href="javascript:;" class="nav-link-item drop-trigger">Question Bank <i class="fas fa-angle-down"></i> </a>
                             <ul class="sub-menu" id="submenu-1">
@@ -45,7 +45,7 @@
                                 </li>
                                 @endforeach
                             </ul>
-                        </li> 
+                        </li>
                         {{--<li class="nav-item nav-item-has-children">
                             <a href="{{ route('dailyQuizIndex') }}" class="nav-link-item drop-trigger">Daily Quiz </a>
                         </li>--}}
@@ -113,7 +113,7 @@
 
 <!-- Mobile Bottom Menu -->
 <div class="footer-navigation d-block d-md-none w-100">
-    
+
     <div class="footer-navigation__container ng-scope" ng-if="!tbHeader.stuObj.isLoggedIn">
         <a href="{{ url('/') }}" target="_self" class="footer-navigation__item">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" class="svg-f-green" viewBox="0 0 24 24">
@@ -134,7 +134,7 @@
                     </svg>
             Home
         </a>
-        <a href="{{ route('test-series') }}" target="_self" class="footer-navigation__item">
+        {{-- <a href="{{ route('test-series') }}" target="_self" class="footer-navigation__item">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" class="svg-f-green" viewBox="0 0 24 26">
                 <g>
                     <path
@@ -159,7 +159,7 @@
                 </g>
             </svg>
             PY Question
-        </a>
+        </a> --}}
         <a href="{{route('getQuestionBankPages')}}" target="_self" class="footer-navigation__item">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" class="svg-f-green" viewBox="0 0 24 26">
                 <g>
@@ -175,7 +175,7 @@
             </svg>
             Question Bank
         </a>
-        
-    </div>   
+
+    </div>
 </div>
 <!-- Mobile Bottom Menu -->

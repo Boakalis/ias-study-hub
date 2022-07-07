@@ -206,7 +206,7 @@
 </div>
 <!--/ .Hero Area -->
 
-<div class="content-section py-3 bg-default mt-1">
+{{-- <div class="content-section py-3 bg-default mt-1">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
@@ -229,20 +229,6 @@
                             <h6 class="mt-3 mb-3">{{strtoupper($data->name)}}</h6>
                         </a>
                         <div class="clear"></div>
-                        {{--
-                        <div class="block">
-                            <span class="float-left font-weight-bold text-danger"><em class="icon ni ni-file-fill"></em><span> </span></span>
-                            @foreach($data->batch as $batch)
-                            <span class="float-right font-weight-bold text-primary">
-                                <span class="badge badge-primary badge-xs mr-2">
-                                    <a href="{{route('testoverview',['series_slug' => $data->slug,'batch_slug' => $batch->slug])}}" class="btn btn-primary btn-xs text-uppercase">
-                                        {{$batch->name}} - {{ $batch->test->count().' Tests' }} - {{ date('d-M-Y',strtotime($batch->updated_at)) }}
-                                    </a>
-                                </span>
-                            </span>
-                            @endforeach
-                        </div>
-                        --}}
                         <div class="clear"></div>
                     </div>
                 </div>
@@ -252,9 +238,9 @@
         </div>
         <!-- .row -->
     </div>
-</div>
+</div> --}}
 
-<div class="content-section py-3 bg-default mt-1">
+{{-- <div class="content-section py-3 bg-default mt-1">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
@@ -275,18 +261,6 @@
                     <div class="card-inner card-sm p-1">
                         <a class="" href="{{route('previousYearIndex')}}"><h6 class="mt-3 mb-3">{{strtoupper($data->name)}}</h6></a>
                         <div class="clear"></div>
-                        {{--
-                        <div class="block">
-                            @if ($data->categorycount !=null)
-                            <span class="float-left font-weight-bold text-danger"><em class="icon ni ni-file-fill"></em><span>{{$data->categorycount}} CATEGORIES</span></span>
-                            @else
-                            <span class="float-left font-weight-bold text-danger"><em class="icon ni ni-file-fill"></em><span>NA</span></span>
-                            @endif
-                            <span class="float-right font-weight-bold text-primary">
-                                <a href="{{route('previousYearTestIndex',['category' => $data->slug])}}" class="btn btn-primary btn-xs">DETAILS</a>
-                            </span>
-                        </div>
-                        --}}
                         <div class="clear"></div>
                     </div>
                 </div>
@@ -296,7 +270,7 @@
         </div>
         <!-- .row -->
     </div>
-</div>
+</div> --}}
 
 {{-- <div class="content-section py-3 bg-default mt-1">
     <div class="container">

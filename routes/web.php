@@ -1,3 +1,4 @@
+
 <?php
 
 use Illuminate\Support\Facades\Route;
@@ -83,14 +84,14 @@ Route::get('/download/{id}', [DownloadController::class, 'download'])
     ->name('download');
 
 //IAS test Series
-Route::get('/ias-test-series', [App\Http\Controllers\TestOrderController::class, 'testseries'])
-    ->name('test-series');
-Route::get('/ias-test-series/{series_slug?}/{batch_slug?}/{test_slug?}', [App\Http\Controllers\TestOrderController::class, 'testoverview'])->name('testoverview');
+// Route::get('/ias-test-series', [App\Http\Controllers\TestOrderController::class, 'testseries'])
+//     ->name('test-series');
+// Route::get('/ias-test-series/{series_slug?}/{batch_slug?}/{test_slug?}', [App\Http\Controllers\TestOrderController::class, 'testoverview'])->name('testoverview');
 
-//previous year
-Route::get('/previous-year-questions', [PreviousYearController::class, 'index'])->name('previousYearIndex');
-Route::get('/previous-year-questions/{category?}/{sub_category?}/{test_slug?}', [PreviousYearController::class, 'testIndex'])->name('previousYearTestIndex');
-Route::get('pyq/courses', [PreviousYearController::class, 'courses'])->name('pyq-course-list');
+// //previous year
+// Route::get('/previous-year-questions', [PreviousYearController::class, 'index'])->name('previousYearIndex');
+// Route::get('/previous-year-questions/{category?}/{sub_category?}/{test_slug?}', [PreviousYearController::class, 'testIndex'])->name('previousYearTestIndex');
+// Route::get('pyq/courses', [PreviousYearController::class, 'courses'])->name('pyq-course-list');
 
 //Question bank
 
